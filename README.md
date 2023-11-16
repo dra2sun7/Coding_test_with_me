@@ -5,7 +5,7 @@
 ##   ❌ Conding Test With Me
 끈기있게 코딩테스트를 하고싶은 당신, 이 곳에 자유롭게 코드를 올리고 다른 사람들과 공유해요!
 
-<br /><br />
+<br />
 
 ##   ❌ How to use
 1. 현재 디렉토리의 우측 상단 `fork` 버튼을 누른다
@@ -14,14 +14,14 @@
 4. 이제 현재 디렉토리를 대상으로 `pull request`를 수행한다
 5. 매일 밤 12시에 `merge request`가 될 것이다.
 
-<br /><br />
+<br />
 
 ##   ❌ Commit Rule
 - 코딩 테스트 홈페이지 이름의 디렉토리를 만들어 안에 코드를 작성해주세요
 - commit에는 `문제 이름 / 난이도 / 문제 링크`를 작성해주세요
     git commit -m " 문자열 출력 / Level 1 / https://school.programmers.co.kr/learn/courses/30/lessons/181951 "
 
-<br /><br />
+<br />
 
 ##   ❌ 추가 사항
 - 매일 매일 잔디를 남기기 위해서는 매일 pull request를 작성해야 합니다
