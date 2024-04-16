@@ -19,7 +19,7 @@
 ##   📖 Commit Rule
 - 코딩 테스트 홈페이지 이름의 디렉토리를 만들어 안에 코드를 작성해주세요
 - commit에는 `문제 이름 / 난이도 / 문제 링크`를 작성해주세요
-    git commit -m " 문자열 출력 / Level 1 / https://school.programmers.co.kr/learn/courses/30/lessons/181951 "
+    - `git commit -m " 문자열 출력 / Level 1 / https://school.programmers.co.kr/learn/courses/30/lessons/181951 "`
 
 <br />
 
