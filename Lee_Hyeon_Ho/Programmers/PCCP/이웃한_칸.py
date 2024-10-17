@@ -10,5 +10,6 @@ def solution(board, h, w):
         if (h_check >= 0 and h_check < n) and (w_check >= 0 and w_check < n):
             if board[h][w] == board[h_check][w_check]:
                 cnt += 1
-                
+
+    sorted()                
     return cnt
