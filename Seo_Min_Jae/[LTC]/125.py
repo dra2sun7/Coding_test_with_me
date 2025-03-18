@@ -46,3 +46,13 @@ def isPalindrome(self, s: str) -> bool:
     s = re.sub('[^a-z0-9]', '', s)
 
     return s == s[::-1]
+
+# 25.01.08 풀이
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        l = [w.lower() for w in s if w.isalpha() or w.isdigit()]
+        reverse_l = list(reversed(l))
+        if l == reverse_l:
+            return True
+        else:
+            return False
