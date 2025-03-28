@@ -1,0 +1,23 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    val = 0
+    def bstToGst(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        if root is None:
+            return
+        
+        if root.right:
+            self.bstToGst(root.right)
+        
+        self.val += root.val
+        root.val = self.val
+
+        if root.left:
+            self.bstToGst(root.left)
+        
+        return root
+
