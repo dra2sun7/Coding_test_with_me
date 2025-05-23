@@ -10,6 +10,8 @@ def add(x, y):
 
     return s
 
+    # return sum(graph[x + i][y + j] for i in range(m) for j in range(m))
+
 T = int(input())
 
 for test_case in range(1, T + 1):
